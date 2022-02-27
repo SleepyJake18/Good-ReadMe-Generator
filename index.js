@@ -50,7 +50,10 @@ const questions = [
 function writeToFile(fileName, data) {
     return inquirer.prompt(questions)
         .then((data) => {
-            
+            console.log(data)
+            utils.renderLicenseBadge(data)
+            utils.renderLicenseLink(data)
+            utils.renderLicenseSection(data)
             const markDown = utils.generateMarkdown(data)
             fs.writeFile(`${data.project}.md`, markDown, function(err) {
                 if (err) {
