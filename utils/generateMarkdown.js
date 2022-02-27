@@ -83,8 +83,8 @@ licenseSection
 ${data.tests}
 
 ## Questions
-${data.github}
-${data.email}
+[${data.github}](https://github.com/${data.github}) \n
+[${data.email}](mailto:${data.email})
 `
 };
 
