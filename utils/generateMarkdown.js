@@ -23,7 +23,7 @@ function renderLicenseLink(data) {
     licenseLink = `[BSD](https://opensource.org/licenses/BSD-2-Clause)`
   } else if (`${data.license}` === `MIT`) {
     licenseLink = `[MIT](https://opensource.org/licenses/MIT)`
-  } else if (`${data,license}` === `GPL`) {
+  } else if (`${data.license}` === `GPL`) {
     licenseLink = `[GPL v3](https://www.gnu.org/licenses/gpl-3.0)`
   } return licenseLink
 };
@@ -35,7 +35,7 @@ function renderLicenseSection(data) {
     licenseSection = `Licensed under the ` + licenseLink + ` license`
   } else if (`${data.license}` === `MIT`) {
     licenseSection = `Licensed under the ` + licenseLink + ` license`
-  } else if (`${data,license}` === `GPL`) {
+  } else if (`${data.license}` === `GPL`) {
     licenseSection = `Licensed under the ` + licenseLink + ` license`
   } return licenseSection
 };
@@ -80,7 +80,7 @@ licenseSection
 
 `
 ## Tests
-${data.tests}
+${data.test}
 
 ## Questions
 [${data.github}](https://github.com/${data.github}) \n

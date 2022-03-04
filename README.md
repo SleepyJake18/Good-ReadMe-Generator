@@ -26,7 +26,7 @@ SleepyJake18
 
 Licensed under the [MIT](https://opensource.org/licenses/MIT) license
 ## Tests
-undefined
+N/A
 
 ## Questions
 [SleepyJake18](https://github.com/SleepyJake18) 
