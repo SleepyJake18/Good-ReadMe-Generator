@@ -1,4 +1,4 @@
-# Good-ReadMe-Generator
+# README
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -14,10 +14,10 @@ This application asks the user a series of question, plugging the answers into a
 - [Questions](#questions)
 
 ## Installation
-Copy the open source code from the repository!
+Copy my open source code from my repository
 
 ## Usage
-Used in your terminal of choice with Node.js
+Use it in your terminal of choice.
 
 ## Credits
 SleepyJake18
